@@ -16,13 +16,16 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Brand href="#home">BPLO</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">
             <Link to="/">Home</Link>
           </Nav.Link>
           <Nav.Link href="#features">
-            <Link to="/business">Business</Link>
+            <Link to="/business">New Business</Link>
+          </Nav.Link>
+          <Nav.Link href="#features">
+            <Link to="/business">Renewal</Link>
           </Nav.Link>
         </Nav>
       </Navbar>
